@@ -4,7 +4,7 @@
     {
         //LukeWarm Section: Create methods below
         //Write a method that will print to the console all numbers 1000 through - 1000
-
+     
         //Write a method that will print to the console numbers 3 through 999 by 3 each time
 
         //Write a method to accept two integers as parameterss and check whether they are equal or not
@@ -27,7 +27,14 @@
         //Call the methods to test them in the Main method below
         static void Main(string[] args)
         {
-            
+            Thousand.NumbersThousand();
+            Three.NumbersByThree();
+            TwoEqual.AreNumbersEqual();
+            EvenOdd.EvenOrOdd();
+            PosNeg.PositiveOrNegative();
+            VoteCheck.CanYouVote();
+            Range.InTheRange();
+            XTable.MultiplicationTables();
         }
     }
 }
